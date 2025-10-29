@@ -77,5 +77,8 @@ Each card shows a different person’s information (image, name, description).
 The code in App.tsx is much cleaner and more declarative, simply instantiating three ProfileCard components.
 
 Verification Instructions:
+
 • Inspect the DOM in the developer tools. You’ll see the div structure with the profile-card class repeated three times, demonstrating component reuse.
+
 • In VS Code, notice how TypeScript helps with prop autocompletion when using the <ProfileCard ... /> component and would flag an error if you forgot to pass any required prop.
+
